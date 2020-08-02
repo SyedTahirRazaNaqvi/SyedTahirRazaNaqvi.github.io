@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {margin: 0px;background-color:#E8FFDC;color: #2c2c2c;font-size: 14px;font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;}
+a {text-decoration: none;}
+.header{background-color: black;width: 100%;height: 60px;z-index: 1;}
+.headerText{font-size: 22px;color:#CFCDCC;padding-left: 50px;padding-top: 16px;}
+.navigation{ float: right;position: relative;right: 25px;top: -25px;word-spacing: 15px;}
+.NavigationLink{color:#E8FFDC;}
+ a:hover {color:#9FD385;}
+
+
+ /*Main-Page*/
+.NavigationLinkBreak{color:#CFCDCC;}
+#bg {position: fixed;  top: 60px; opacity: .58;left: 0%; width: 100%; height: 100%;}
+.cc-profile-image a {position: relative;}
+.cc-profile-image a:before {content: "";border: 15px solid rgba(55, 140, 63, 0.6);border-radius: 50%;height: 180px;width: 180px;
+-webkit-animation: pulsate 1.6s ease-out;animation: pulsate 1.6s ease-out;-webkit-animation-iteration-count: infinite;animation-iteration-count: infinite;opacity: 0.0;z-index: 99;}
+.cc-profile-image img {position: relative;left: 39%;border-radius: 50%;height: 180px;width: 180px;padding: 0;margin: 0;border: 15px solid transparent;z-index: 9999;-webkit-transition: all .3s ease-out;transition: all .3s ease-out;}
+.cc-profile-image a:hover img {-webkit-transform: scale(1.06, 1.06);transform: scale(1.06, 1.06);}
+.cc-profile-image a:hover:before {-webkit-animation: none;animation: none;}
+.title {text-align: center;margin-top: 30px;font-weight: 700;}
+h2, .h2 {font-size: 2.5em;margin-bottom: 30px;}
+.category {text-align: center;}
+.title + .category { margin-top: -25px;}
+.category { text-transform: uppercase; font-weight: 700; color: #9A9A9A;}
+.text-white {color: #fff!important;}
+p {line-height: 1.61em;}
+.socialicons{font-size: 50px;letter-spacing: 40px;}
+.socialiconscenter{top: 100px;position: relative;z-index: 99999999999999;text-align: center;}
+.socialicons {text-decoration: none;text-decoration: none;font-size: 50px;letter-spacing: 40px;color: #486e34;}
+.socialicons:hover{color: black;}
+
+ /*aboutus*/
+ .aboutus{background-color: #c8ffad; margin-top: 7.5%;margin-left: 15%;margin-right: 15%;margin-bottom: 7.5%;box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.7);}
+ .about{width:437.5px;height: 300px;}
+ .bi{float: left;position: relative;top: -285px;left: 450px;}
+ .titleabout {font-weight: 800;font-size: 30px;}
+ .titlebi {font-weight: 700;font-size: 30px;}
+.titleabout1 {padding-top: 3%;padding-left: 4%;}
+.font20{font-size: 18px;}
+.font18{ font-size: 18px;margin-left: 10px;    margin-top: 3%;}
+
+.flexrow{  display: flex;
+        flex-direction: row;}
+
+ /*skill*/
+.skill{background-color: #e1ffeb; margin-top: 2.5%;margin-left: 15%;margin-right: 15%;margin-bottom: 7.5%;box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.7);}
+.about{width:437.5px;height: 300px;}
+.center{margin: 2%;font-size: 20px;}
+.file{   width: 350px; border-radius: 0;height: 15px;}
+.s_heading{color: #332a0e;text-align: center;font-size: 32px;font-weight: 800;margin-top: 10px;}
+.s_sheading{color: #332a0e;font-size: 20px;font-weight: 600;}
+
+
+.titleedu{    margin-bottom: 2px;margin-top: 2px;font-weight: 800;font-size: 30px;
+
+}
+.titleedu2{    margin-left: 29px;
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 25px;}
+.edu {
+    background-color: #d4faff;
+    margin-top: 3.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1.5%;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.7);
+}
+.edu2 {
+    background-color: #d4faff;
+    margin-top: 1.5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1.5%;
+    box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.7);
+}
+
+
+.titlep{ font-size: 14px; font-weight: 400;} 
+.titlep2 { margin-left:7px; margin-top: 0; font-weight: 600; font-size: 16px; } 
+.titlepi{font-weight: 500;font-size: 14px;}
+.p_heading {color: #005e55;text-align: center;font-size: 32px;font-weight: 800;margin-top: 10px;}
+.titlecontact{color: #005e55;text-align: center;font-size: 32px;font-weight: 800;margin-top: 10px;}
+.mar2{margin-top: 2%;}
+.Main-Page {
+
+}
+.p1_heading {background-color: #ece7b9;color: #005e55;text-align: center;font-size: 32px;font-weight: 800;margin-top: 10px;    opacity: 0.7;}
